@@ -6,16 +6,46 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 
 const locations = [
     {
-        name: 'Test Location',
+        name: 'Billboard Gunung Latimojong',
         type: 'Billboard',
-        address: 'Jl. Jalur Sutera Boulevard No.41, RT.003/RW.006, Panunggangan Tim., Kec. Pinang, Kota Tangerang, Banten 15143',
-        coordinates: [106.65971226225288, -6.22027094834841 ] as [number, number],
+        address: 'Jl. Gunung Latimojong No.137a, Maradekaya, Kec. Makassar, Kota Makassar, Sulawesi Selatan 90145',
+        coordinates: [119.4212662, -5.1438959 ] as [number, number],
     },
     {
-        name: 'Test',
+        name: 'Billboard Jendral Sudirman',
         type: 'Billboard',
-        address: 'Jl. Hang Lekir I No.6, RT.1/RW.3, Senayan, Kec. Kby. Baru, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270',
-        coordinates: [106.79685119506857, -6.228775857340689] as [number, number],
+        address: 'Jl. Jend. Sudirman No 54, Kota Makassar, Sulawesi Selatan',
+        coordinates: [119.4152539, -5.1452318] as [number, number],
+    },
+    {
+        name: 'Billboard Letjen Hertasning',
+        type: 'Billboard',
+        address: 'Jl. Letjen Hertasning, Tidung, Kec. Rappocini, Kota Makassar, Sulawesi Selatan 90222',
+        coordinates: [119.4483385, -5.167137] as [number, number],
+    },
+    {
+        name: 'Billboard Pengayoman',
+        type: 'Billboard',
+        address: 'Jl. Pengayoman No.1, Kota Makassar, Sulawesi Selatan',
+        coordinates: [119.4406657, -5.1582576] as [number, number],
+    },
+    {
+        name: 'Billboard Pengayoman',
+        type: 'Billboard',
+        address: 'Jl. Pengayoman No.8, Masale, Kec. Panakkukang, Kota Makassar, Sulawesi Selatan 90231',
+        coordinates: [119.4394231, -5.1582031] as [number, number],
+    },
+    {
+        name: 'Billboard Pettarani',
+        type: 'Billboard',
+        address: 'Jl. A. P. Pettarani, Kota Makassar, Sulawesi Selatan',
+        coordinates: [119.4316533, -5.1736043] as [number, number],
+    },
+    {
+        name: 'Billboard Pare-pare',
+        type: 'Billboard',
+        address: 'Jl. Mattirotasi No.189, Kota Parepare, Sulawesi Selatan',
+        coordinates: [119.6269191, -4.0461065] as [number, number],
     },
 ];
 
@@ -38,7 +68,7 @@ export default function MapSection({ dark }: MapSectionProps) {
             style: dark
                 ? 'mapbox://styles/mapbox/dark-v11'
                 : 'mapbox://styles/mapbox/light-v11',
-            center: [106.81338288790896, -6.191179579476335],
+            center: [119.4462334745602, -5.157653105923595],
             zoom: 12,
         })
 
