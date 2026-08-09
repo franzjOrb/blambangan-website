@@ -481,3 +481,55 @@ body {
 .mobile-menu-link:last-child {
   border-bottom: none;
 }
+
+.location-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--grid-gap);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .location-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .location-cards {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.location-card {
+  background: var(--card);
+  padding: 20px;
+  transition: background-color 0.2s;
+}
+
+.location-card:hover {
+  background: var(--card-hover);
+}
+
+.location-type {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-brand-orange);
+  margin-bottom: 6px;
+}
+
+.location-name {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.location-address {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.5;
+}
