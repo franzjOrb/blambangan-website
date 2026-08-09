@@ -7,6 +7,7 @@ import HeroSection from '@/components/HeroSection';
 import ServicesSection from '@/components/ServicesSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
+import MapSection from '@/components/MapSection';
 
 export default function Home() {
   const [dark, setDark] = useState(true)
@@ -20,6 +21,7 @@ export default function Home() {
       <Navbar dark={dark} onToggle={() => setDark(!dark)} />
       <HeroSection />
       <ServicesSection />
+      <MapSection dark={dark} />
       <ContactSection />
       <Footer />
     </>
