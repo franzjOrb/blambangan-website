@@ -18,7 +18,7 @@ export default function HeroSection() {
             </h1>
             <p className="hero-desc">
                 CV. Blambangan Advertising menghadirkan solusi periklanan luar dan
-                dalam ruangan yang strategis dan berdampak — dari Billboard hingga
+                dalam ruangan yang strategis dan berdampak dari Billboard hingga
                 Neon Box di seluruh Makassar dan sekitarnya.
             </p>
             <div className="hero-actions">

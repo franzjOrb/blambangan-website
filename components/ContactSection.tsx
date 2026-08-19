@@ -3,7 +3,7 @@ export default function ContactSection() {
         <section id="kontak" className="section">
             <div className="contact-inner">
                 <div>
-                    <div className="section-tag">— Mulai Sekarang</div>
+                    <div className="section-tag">Mulai Sekarang</div>
                     <h2 className="contact-title">
                         Siap Pasang<br />
                         Iklan <span className="orange">Bersama</span><br />

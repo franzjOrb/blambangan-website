@@ -162,7 +162,7 @@ export default function MapSection({ dark }: MapSectionProps) {
     return (
         <section id="lokasi" className="section">
             <div className="section-inner">
-                <div className="section-tag">— Titik Lokasi Kami</div>
+                <div className="section-tag">Titik Lokasi Kami</div>
                 <h2 className="section-title">
                     Sebaran <span className="orange">Lokasi</span> Billboard
                 </h2>

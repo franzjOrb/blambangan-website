@@ -35,7 +35,7 @@ export default function ServicesSection() {
     return (
         <section id="layanan" className="section">
             <div className="section-inner">
-                <div className="section-tag">— Layanan Kami</div>
+                <div className="section-tag">Layanan Kami</div>
                 <h2 className="section-title">
                     Solusi Iklan <span className="orange">Lengkap</span>
                 </h2>
